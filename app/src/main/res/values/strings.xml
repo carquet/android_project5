@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+    <string name="monuments">monuments</string>
+    <string name="events">events</string>
+    <string name="restaurants">restaurants</string>
+    <string name="museums">museums</string>
 </resources>

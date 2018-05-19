@@ -12,7 +12,7 @@ public class RestaurantsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurants);
+        setContentView(R.layout.list_view);
 
         ArrayList<String > locations = new ArrayList<>();
         locations.add("Casa Botin");

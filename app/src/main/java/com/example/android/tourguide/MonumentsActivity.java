@@ -14,7 +14,7 @@ public class MonumentsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_monuments);
+        setContentView(R.layout.list_view);
 
         //Initialising locations objects
         ArrayList<String> locations = new ArrayList<>();

@@ -24,8 +24,8 @@ public class MonumentsActivity extends AppCompatActivity {
         locations.add("Palacio Real");
         locations.add("El Parque del Buen Retiro");
 
-        ArrayAdapter<String> locationAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, locations);
+/*        ArrayAdapter<String> locationAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, locations);
         ListView locationListView = (ListView) findViewById(R.id.root_view);
-        locationListView.setAdapter(locationAdapter);
+        locationListView.setAdapter(locationAdapter);*/
     }
 }

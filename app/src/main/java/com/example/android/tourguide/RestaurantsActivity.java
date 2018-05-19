@@ -22,8 +22,9 @@ public class RestaurantsActivity extends AppCompatActivity {
         locations.add(new Location(R.string.lhardy, R.string.info_lhardy));
 
 
-     /*   ArrayAdapter<String> locationAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, locations);
+        LocationsAdapter locationAdapter = new LocationsAdapter(this, locations);
+
         ListView locationListView = (ListView) findViewById(R.id.root_view);
-        locationListView.setAdapter(locationAdapter);*/
+        locationListView.setAdapter(locationAdapter);
     }
 }

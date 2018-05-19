@@ -14,15 +14,16 @@ public class RestaurantsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
 
-        ArrayList<String > locations = new ArrayList<>();
-        locations.add("Casa Botin");
-        locations.add("Tablao Villa Rosa");
-        locations.add("Mercado de San Miguel");
-        locations.add("Casa Labra");
-        locations.add("Lhardy");
+        ArrayList<Location > locations = new ArrayList<>();
+        locations.add(new Location(R.string.botin, R.string.info_botin));
+        locations.add(new Location(R.string.villa_rosa, R.string.info_villa_rosa));
+        locations.add(new Location(R.string.san_miguel, R.string.info_san_miguel));
+        locations.add(new Location(R.string.casa_labra, R.string.info_casa_labra));
+        locations.add(new Location(R.string.lhardy, R.string.info_lhardy));
 
-        ArrayAdapter<String> locationAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, locations);
+
+     /*   ArrayAdapter<String> locationAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, locations);
         ListView locationListView = (ListView) findViewById(R.id.root_view);
-        locationListView.setAdapter(locationAdapter);
+        locationListView.setAdapter(locationAdapter);*/
     }
 }

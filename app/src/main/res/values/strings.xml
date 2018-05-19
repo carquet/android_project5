@@ -3,5 +3,19 @@
     <string name="monuments">monuments</string>
     <string name="events">events</string>
     <string name="restaurants">restaurants</string>
+    <string name="botin">Casa Botin</string>
+    <string name="info_botin">Sobrino de Botín, founded in 1725, is the oldest restaurant continuously operating in the world, according to the Guinness Book of Records.</string>
+    <string name="villa_rosa">"Tablao Villa Rosa"</string>
+    <string name="info_villa_rosa">Madrid has been and is the capital of flamenco since the early twentieth century. Artists of all kinds and condition to reach fame and prestige.5 minutes walking from Puerta del Sol
+</string>
+    <string name="san_miguel">mercado san miguel</string>
+    <string name="info_san_miguel">The Market of San Miguel is a covered market located in Madrid, Spain. Originally built in 1916, it was purchased by private investors in 2003 who renovated the iron structure and reopened it in 2009.
+</string>
+    <string name="casa_labra">Casa Labra</string>
+    <string name="info_casa_labra">Casa Labra is a pub in Madrid located close to the Puerta del Sol that was established and has been open since 1860. It is famous for being the site for the foundation of the Spanish Socialist Workers' Party by Pablo Iglesias on May 2, 1879
+</string>
+    <string name="lhardy">Lhrady</string>
+    <string name="info_lhardy">Lhardy is a restaurant located at Madrid in Spain, which was opened in 1839 by Emilio Huguenin Lhardy. It was said to have introduced French haute cuisine to Madrid.
+</string>
     <string name="museums">museums</string>
 </resources>

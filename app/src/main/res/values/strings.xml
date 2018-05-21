@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Madrid Tour Guide</string>
-    <!-- MONUMENTS-->
+    <!--######################################### MONUMENTS######################################-->
     <string name="monuments">monuments</string>
     <string name="puerta_alcala">Puerta de Alcalà</string>
     <string name="info_puerta_alcala">The Puerta de Alcalá is a Neo-classical monument in the Plaza de la Independencia in Madrid, Spai</string>
@@ -29,11 +29,32 @@
     <string name="address_retiro">Plaza de la Independencia, 7, 28001 Madrid
 </string>
     <string name="hours_retiro">open: 7AM-1AM</string>
-
+    <!--########################################### EVENTS ########################################-->
     <string name="events">events</string>
-    <!-- ##### RESTAURANT #####S-->
+    <string name="flameco">Flamenco Madrid 2018 - 4ª edición</string>
+    <string name="info_flamenco">Desde el teatro Fernán Gómez, Centro Cultural de la Villa, nos complace presentar la cuarta edición del Festival Flamenco Madrid, un proyecto artístico sostenible, a nivel social y cultural en el que la programación artística promueve el valor del talento de artistas emergentes y sobre todo, la singularidad de la mujer artista y creadora. En esta edidicón tienen cabida, como todos los años, espectáculos, exposiciones, coloquios, conferencias, clases magistrales... Flamenco Madrid, #ConMdeMujer, sueña con un cambio en nuestra sociedad a través de la cultura.</string>
+    <string name="address_flamenco">PLAZA  COLON,  4   28001  MADRID </string>
+    <string name="hours_flamenco">from 14th of May to the 10th of June</string>
+
+    <string name="festival_arte">I Festival de Artes Escénicas</string>
+    <string name="info_festival_arte">33 actuaciones de diferentes disciplinas artísticas: música en directo, teatro, danza y otros,  a cargo de compañías fundamentalmente amateurs, trufadas de espectáculos profesionales.
+Se desarrollará en 12 emplazamientos, 7 de calles y 5 espacios cerrados, repartidos por los barrios del distrito.
+El objetivo es mostrar la riqueza de la actividad cultural del Distrito y activar espacios nuevos como el Espacio de Igualdad Elena Arnedo Soriano, o tradicionalmente carentes de oferta cultural, como el templete del Parque Roma o la Calle 12 de Octubre.</string>
+    <string name="address_festival_arte">Distrito del retiro</string>
+    <string name="hours_festival_arte">From 24th of May to the 27th of May</string>
+
+    <string name="fiver">Fiver 2018</string>
+    <string name="info_fiver">Fundado en Logroño en 2012, FIVER es la plataforma más importante de apoyo, producción, formación, archivo y difusión de danza audiovisual basada en España. En su VI edición, FIVER ofrece una experiencia inmersiva en el mundo de la danza audiovisual compuesta de instalaciones, proyecciones, y muestras de videodanza internacionales repartidas, en un trayecto de libre circulación, por diversos espacios de Naves Matadero y Cineteca Madrid.</string>
+    <string name="address_fiver">Nave 10 -Sala Max Aub y Sala de Madera- y Cafetería Naves</string>
+    <string name="hours_fiver">Proyecciones: 19, 20 y 26 mayo De martes a viernes de 17 a 20horas, sábado y domingo de 12 a 20 horas</string>
+    
+    <string name="musa">Madrid, musa de las artes</string>
+    <string name="info_musa">El Museo de Arte Contemporáneo de Madrid imaugura este jueves 24 de mayo, Madrid, musa de las artes, comisariada por Javier Pérez Segura. La exposición nos muestra un nuevo punto de vista sobre Madrid, como simbolo de acogida y de inspiración a lo largo del siglo XX.</string>
+    <string name="address_musa">Museo de Arte Contemporáneo de Madrid</string>
+    <string name="hours_musa">La exposición estará abierta al público hasta el 4 de octubre de 2018.</string>
+    <!-- ##################################### RESTAURANT ######################################-->
     <string name="restaurants">restaurants</string>
-    <string name="botin">Casa Botin</string>
+    <string name="botin">Casa Botin</string>musa
     <string name="info_botin">Sobrino de Botín, founded in 1725, is the oldest restaurant continuously operating in the world, according to the Guinness Book of Records.</string>
     <string name="address_botin">Calle Cuchilleros, 17, 28005</string>
     <string name="hours_botin">open at 1PM-4PM, 8PM-12AM</string>
@@ -62,8 +83,36 @@
     <string name="address_lhardy">Carrera de S. Jerónimo, 8, 28014 Madrid</string>
     <string name="hours_lhardy">Open 10AM-10PM</string>
 
+    <!-- ######################################## MUSEUMS ########################################-->
     <string name="museums">museums</string>
+    <string name="reina_sofia">Mudeo Reina Sofia</string>
+    <string name="info_reina_sofia">The Museo Nacional Centro de Arte Reina Sofía is Spain\'s national museum of 20th-century art. The museum was officially inaugurated on September 10, 1992, and is named for Queen Sofía.</string>
+    <string name="address_reina_sofia">Calle de Santa Isabel, 52, 28012 Madrid</string>
+    <string name="hours_reina_sofia">Open: 10AM-9PM</string>
+
+    <string name="thyssen">Museum Thyssen</string>
+    <string name="info_thyssen">The Thyssen-Bornemisza Museum, or simply the Thyssen, is an art museum in Madrid, Spain, located near the Prado Museum on one of city\'s main boulevards.</string>
+    <string name="address_thyssen">Paseo del Prado, 8, 28014 Madrid</string>
+    <string name="hours_thyssen">open: 10AM-7PM</string>
+
+    <string name="naval">Museo Naval de Madrid</string>
+    <string name="info_naval">The Museo Naval de Madrid —in English, Naval Museum of Madrid— is a national museum in Madrid, Spain. It shows the history of the Spanish Navy since the Catholic Monarchs, in the 15th century, up to the present
+</string>
+    <string name="address_naval">Paseo del Prado, 5, 28014 Madrid</string>
+    <string name="hours_naval">open: 10AM-7PM</string>
+
+    <string name="prado">Museo del Prado</string>
+    <string name="info_prado">The Prado Museum is the main Spanish national art museum, located in central Madrid. It is widely considered to have one of the world\'s finest collections of European art, dating from the 12th century to the early 20th century, based on the former Spanish Royal Collection, and the single best collection of Spanish art.
+</string>
+    <string name="address_prado">Paseo del Prado, s/n, 28014 Madrid</string>
+    <string name="hours_prado">open: 10AM-8PM</string>
+
+    <string name="arqueologico">Museo Arqueológico</string>
+    <string name="info_arqueologico">The National Archaeological Museum is a museum in Madrid, Spain. It is located on Serrano Street beside the Plaza de Colón, sharing its building with the National Library.</string>
+    <string name="address_arqueologico">Calle de Serrano, 13, 28001 Madrid</string>
+    <string name="hours_arqueologico">Open: 9:30AM-8PM</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

@@ -17,15 +17,16 @@ public class MonumentsActivity extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         //Initialising locations objects
-        ArrayList<String> locations = new ArrayList<>();
-        locations.add("Puerta de Alcalà");
-        locations.add("Palacio de Cristal");
-        locations.add("Plaza Cibeles");
-        locations.add("Palacio Real");
-        locations.add("El Parque del Buen Retiro");
+        ArrayList<Location> locations = new ArrayList<>();
+        locations.add(new Location(R.string.puerta_alcala, R.string.info_puerta_alcala, R.string.address_puerta_alacala,R.drawable.puerta_de_alcala));
+        locations.add(new Location(R.string.palacio_cristal, R.string.info_palacio_cristal, R.string.address_palacio_cristal,R.drawable.palacio_de_cristal));
+        locations.add(new Location(R.string.plaza_cibeles, R.string.info_plaza_cibeles, R.string.address_plaza_cibeles,R.drawable.plaza_cibeles));
+        locations.add(new Location(R.string.palacio_real, R.string.info_palacio_real, R.string.address_palacio_real,R.drawable.palacio_real));
+        locations.add(new Location(R.string.retiro, R.string.info_retiro, R.string.address_retiro,R.drawable.retiro));
 
-/*        ArrayAdapter<String> locationAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, locations);
+        LocationsAdapter locationAdapter = new LocationsAdapter(this, locations);
+
         ListView locationListView = (ListView) findViewById(R.id.root_view);
-        locationListView.setAdapter(locationAdapter);*/
+        locationListView.setAdapter(locationAdapter);
     }
 }

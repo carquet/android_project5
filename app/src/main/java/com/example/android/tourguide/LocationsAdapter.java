@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -34,6 +35,9 @@ public class LocationsAdapter extends ArrayAdapter<Location>{
         //iteration through the ArrayList<Location>
         Location currentLocation = getItem(position);
 
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        imageView.setImageResource(currentLocation.getmImage());
+
         //find the template in the converview
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name);
         //inject content from the first object
@@ -41,6 +45,9 @@ public class LocationsAdapter extends ArrayAdapter<Location>{
 
         TextView infoTextView = (TextView) listItemView.findViewById(R.id.info);
         infoTextView.setText(currentLocation.getmInfo());
+
+        TextView addressTextView = (TextView) listItemView.findViewById(R.id.address);
+        addressTextView.setText(currentLocation.getmAddress());
 
         //return the inflated view
         return listItemView;

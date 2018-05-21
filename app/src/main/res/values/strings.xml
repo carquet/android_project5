@@ -1,21 +1,66 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Madrid Tour Guide</string>
+    <!-- MONUMENTS-->
     <string name="monuments">monuments</string>
+    <string name="puerta_alcala">Puerta de Alcalà</string>
+    <string name="info_puerta_alcala">The Puerta de Alcalá is a Neo-classical monument in the Plaza de la Independencia in Madrid, Spai</string>
+    <string name="address_puerta_alacala">Plaza de la Independencia, 1, 28001 Madrid</string>
+    <string name="hours_puerta_alacla">Open 24 hours</string>
+
+    <string name="palacio_cristal">Palacio de cristal</string>
+    <string name="info_palacio_cristal">The Palacio de Cristal is a glass and metal structure located in Madrid\'s Buen Retiro Park. It was built in 1887 on the occasion of the Exposition of the Philippines, held in the same year, then a Spanish colonial possession
+</string>
+    <string name="address_palacio_cristal">Paseo República de Cuba, 4, 28009 Madrid</string>
+    <string name="hours_palacio_cristal">open: 10AM-10PM</string>
+
+    <string name="plaza_cibeles">Plaza Cibeles</string>
+    <string name="info_plaza_cibeles">The Plaza de Cibeles is a square with a neo-classical complex of marble sculptures with fountains that has become an iconic symbol for the city of Madrid.</string>
+    <string name="address_plaza_cibeles">It sits at the intersection of Calle de Alcalá, Paseo de Recoletos and Paseo del Prado.</string>
+    <string name="hours_plaza_cibeles">N/A</string>
+
+    <string name="palacio_real">Palacio Real</string>
+    <string name="info_palacio_real">The Royal Palace of Madrid is the official residence of the Spanish Royal Family at the city of Madrid, but it is only used for state ceremonies.
+</string>
+    <string name="address_palacio_real">Calle de Bailén, s/n, 28071 Madrid</string>
+    <string name="hours_palacio_real">Open: 10AM-8PM</string>
+
+    <string name="retiro">El Parque del Buen Retiro</string>
+    <string name="info_retiro">The Buen Retiro Park is one of the largest parks of the city of Madrid, Spain. The park belonged to the Spanish Monarchy until the late 19th century, when it became a public park.</string>
+    <string name="address_retiro">Plaza de la Independencia, 7, 28001 Madrid
+</string>
+    <string name="hours_retiro">open: 7AM-1AM</string>
+
     <string name="events">events</string>
+    <!-- ##### RESTAURANT #####S-->
     <string name="restaurants">restaurants</string>
     <string name="botin">Casa Botin</string>
     <string name="info_botin">Sobrino de Botín, founded in 1725, is the oldest restaurant continuously operating in the world, according to the Guinness Book of Records.</string>
+    <string name="address_botin">Calle Cuchilleros, 17, 28005</string>
+    <string name="hours_botin">open at 1PM-4PM, 8PM-12AM</string>
+
     <string name="villa_rosa">"Tablao Villa Rosa"</string>
     <string name="info_villa_rosa">Madrid has been and is the capital of flamenco since the early twentieth century. Artists of all kinds and condition to reach fame and prestige.5 minutes walking from Puerta del Sol
 </string>
+    <string name="address_villa_rosa">Plaza Sta. Ana, 15, 28012 Madrid</string>
+    <string name="hours_villa_rosa">open 11AM-1AM</string>
+
     <string name="san_miguel">mercado san miguel</string>
     <string name="info_san_miguel">The Market of San Miguel is a covered market located in Madrid, Spain. Originally built in 1916, it was purchased by private investors in 2003 who renovated the iron structure and reopened it in 2009.
 </string>
+    <string name="address_san_miguel">Plaza de San Miguel, s/n, 28005 Madrid</string>
+    <string name="hours_san_miguel">open 10AM-1AM</string>
+
     <string name="casa_labra">Casa Labra</string>
     <string name="info_casa_labra">Casa Labra is a pub in Madrid located close to the Puerta del Sol that was established and has been open since 1860. It is famous for being the site for the foundation of the Spanish Socialist Workers\'Party by Pablo Iglesias on May 2, 1879
 </string>
+    <string name="address_casa_labra">Calle Tetuán, 12, 28013 Madrid</string>
+    <string name="hours_casa_labra">Open: 11AM-3:30PM, 6PM-11PM</string>
+
     <string name="lhardy">Lhrady</string>
     <string name="info_lhardy">Lhardy is a restaurant located at Madrid in Spain, which was opened in 1839 by Emilio Huguenin Lhardy. It was said to have introduced French haute cuisine to Madrid.
 </string>
+    <string name="address_lhardy">Carrera de S. Jerónimo, 8, 28014 Madrid</string>
+    <string name="hours_lhardy">Open 10AM-10PM</string>
+
     <string name="museums">museums</string>
 </resources>

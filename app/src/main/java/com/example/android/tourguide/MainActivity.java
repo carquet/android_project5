@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //set the content of the activity to use the activity_main layout xml file
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_category);
 
         //find the view page that will allow the user to swipe between fragments
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);

@@ -5,12 +5,13 @@ import android.media.Image;
 
 public class Location {
 
-    //status
+    //state
     private int mName;
     private int mInfo;
     private int mAddress;
-    private int mImage;
-
+    private int mImage = NO_IMAGE_PROVIDED;
+    /** Constant value that represents no image was provided for this word */
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     //constructor
     public Location(int name, int info, int address, int image){
@@ -42,6 +43,10 @@ public class Location {
 
     public int getmImage(){
         return mImage;
+    }
+
+    public boolean hasImage(){
+        return mImage != NO_IMAGE_PROVIDED;
     }
 
 

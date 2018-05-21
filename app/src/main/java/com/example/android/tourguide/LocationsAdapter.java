@@ -35,9 +35,6 @@ public class LocationsAdapter extends ArrayAdapter<Location>{
         //iteration through the ArrayList<Location>
         Location currentLocation = getItem(position);
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        imageView.setImageResource(currentLocation.getmImage());
-
         //find the template in the converview
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name);
         //inject content from the first object
@@ -48,6 +45,19 @@ public class LocationsAdapter extends ArrayAdapter<Location>{
 
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address);
         addressTextView.setText(currentLocation.getmAddress());
+
+        //Evaluate whether there is an image or not
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        // Check if an image is provided for this word or not
+        if (currentLocation.hasImage()) {
+            // If an image is available, display the provided image based on the resource ID
+            imageView.setImageResource(currentLocation.getmImage());
+            // Make sure the view is visible
+            imageView.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the ImageView (set visibility to GONE)
+            imageView.setVisibility(View.GONE);
+        }
 
         //return the inflated view
         return listItemView;

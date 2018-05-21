@@ -63,4 +63,7 @@
     <string name="hours_lhardy">Open 10AM-10PM</string>
 
     <string name="museums">museums</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

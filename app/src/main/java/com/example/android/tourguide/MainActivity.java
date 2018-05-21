@@ -1,6 +1,8 @@
 package com.example.android.tourguide;
 
 import android.content.Intent;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,25 +13,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //set the content of the activity to use the activity_main layout xml file
         setContentView(R.layout.activity_main);
 
-        TextView buttonMonuments = (TextView) findViewById(R.id.button_monuments);
-        buttonMonuments.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intentMonuments = new Intent(MainActivity.this, MonumentsActivity.class);
-                startActivity(intentMonuments);
-            }
-        });
-        TextView buttonRestaurants = (TextView) findViewById(R.id.button_restaurants);
-        buttonRestaurants.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intentRestaurants = new Intent(MainActivity.this, RestaurantsActivity.class);
-                startActivity(intentRestaurants);
-            }
-        });
-        /*TextView buttonEvents = (TextView) findViewById(R.id.button_events);
-        TextView buttonMuseums = (TextView) findViewById(R.id.button_museums);*/
+        //find the view page that will allow the user to swipe between fragments
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+
+        //create an adapter that knows which fragment should be shown on each page
+        TourFragmentPagerAdapter fragmentAdapter = new TourFragmentPagerAdapter(getSupportFragmentManager()) {
+        };
+
+        //set the adapter onto the view pager
+        viewPager.setAdapter(fragmentAdapter);
+
+        // Give the TabLayout the ViewPager
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
+
     }
 }

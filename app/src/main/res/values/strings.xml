@@ -47,7 +47,7 @@ El objetivo es mostrar la riqueza de la actividad cultural del Distrito y activa
     <string name="info_fiver">Fundado en Logroño en 2012, FIVER es la plataforma más importante de apoyo, producción, formación, archivo y difusión de danza audiovisual basada en España. En su VI edición, FIVER ofrece una experiencia inmersiva en el mundo de la danza audiovisual compuesta de instalaciones, proyecciones, y muestras de videodanza internacionales repartidas, en un trayecto de libre circulación, por diversos espacios de Naves Matadero y Cineteca Madrid.</string>
     <string name="address_fiver">Nave 10 -Sala Max Aub y Sala de Madera- y Cafetería Naves</string>
     <string name="hours_fiver">Proyecciones: 19, 20 y 26 mayo De martes a viernes de 17 a 20horas, sábado y domingo de 12 a 20 horas</string>
-    
+
     <string name="musa">Madrid, musa de las artes</string>
     <string name="info_musa">El Museo de Arte Contemporáneo de Madrid imaugura este jueves 24 de mayo, Madrid, musa de las artes, comisariada por Javier Pérez Segura. La exposición nos muestra un nuevo punto de vista sobre Madrid, como simbolo de acogida y de inspiración a lo largo del siglo XX.</string>
     <string name="address_musa">Museo de Arte Contemporáneo de Madrid</string>
@@ -111,8 +111,5 @@ El objetivo es mostrar la riqueza de la actividad cultural del Distrito y activa
     <string name="info_arqueologico">The National Archaeological Museum is a museum in Madrid, Spain. It is located on Serrano Street beside the Plaza de Colón, sharing its building with the National Library.</string>
     <string name="address_arqueologico">Calle de Serrano, 13, 28001 Madrid</string>
     <string name="hours_arqueologico">Open: 9:30AM-8PM</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

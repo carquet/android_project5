@@ -1,7 +1,6 @@
 package com.example.android.tourguide;
 
 
-
 import android.app.Activity;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -15,9 +14,9 @@ import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
-public class LocationsAdapter extends ArrayAdapter<Location>{
+public class LocationsAdapter extends ArrayAdapter<Location> {
 
-    public LocationsAdapter(Activity context, ArrayList<Location> locations){
+    public LocationsAdapter(Activity context, ArrayList<Location> locations) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
@@ -28,7 +27,7 @@ public class LocationsAdapter extends ArrayAdapter<Location>{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
-        if(listItemView == null){
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 

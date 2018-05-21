@@ -11,7 +11,6 @@
     <style name="TabLayout" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">?attr/colorAccent</item>
         <item name="tabIndicatorHeight">2dp</item>
-        <item name="tabMaxWidth"></item>
         <item name="tabBackground">@color/colorPrimary</item>
         <item name="tabTextAppearance">@style/tabTextAppearance</item>
     </style>
@@ -21,5 +20,13 @@
         <item name="android:textColor">#FFF</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <style name="list_item_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+
 
 </resources>

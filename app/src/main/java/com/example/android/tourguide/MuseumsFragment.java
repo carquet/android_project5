@@ -26,12 +26,12 @@ public class MuseumsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list_view, container, false);
 
-        ArrayList<Location > locations = new ArrayList<>();
-        locations.add(new Location(R.string.reina_sofia, R.string.info_reina_sofia, R.string.address_reina_sofia,R.drawable.reina_sofia));
-        locations.add(new Location(R.string.naval, R.string.info_naval,R.string.address_naval,R.drawable.naval));
-        locations.add(new Location(R.string.thyssen, R.string.info_thyssen,R.string.address_thyssen,R.drawable.thyssen));
-        locations.add(new Location(R.string.arqueologico, R.string.info_arqueologico, R.string.address_arqueologico,R.drawable.arqueologico));
-        locations.add(new Location(R.string.prado, R.string.info_prado, R.string.address_prado,R.drawable.prado));
+        ArrayList<Location> locations = new ArrayList<>();
+        locations.add(new Location(R.string.reina_sofia, R.string.info_reina_sofia, R.string.address_reina_sofia, R.drawable.reina_sofia));
+        locations.add(new Location(R.string.naval, R.string.info_naval, R.string.address_naval, R.drawable.naval));
+        locations.add(new Location(R.string.thyssen, R.string.info_thyssen, R.string.address_thyssen, R.drawable.thyssen));
+        locations.add(new Location(R.string.arqueologico, R.string.info_arqueologico, R.string.address_arqueologico, R.drawable.arqueologico));
+        locations.add(new Location(R.string.prado, R.string.info_prado, R.string.address_prado, R.drawable.prado));
 
 
         LocationsAdapter locationAdapter = new LocationsAdapter(getActivity(), locations);
